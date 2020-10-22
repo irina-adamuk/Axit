@@ -1,0 +1,47 @@
+.nav {
+    display: flex;
+    @media (max-width: 770px) {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        background-color: #000;
+
+        text-align: left;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+             
+    }
+}
+.nav.show {
+    @media (max-width: 770px) {
+       display: flex; 
+    }
+}
+
+
+.nav__link {
+    margin-right: 3rem;
+
+    font-family: $ff-OpenSans;
+    font-size: 14px;
+    color: #b0b0b0;
+    font-weight: 600;
+
+    text-decoration: none;
+    opacity: 0.69;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &:hover {
+        text-decoration: underline;
+        color: $orange;
+    }
+
+    @media (max-width: 770px) {
+        padding: 9px 15px;
+    }
+}

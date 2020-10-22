@@ -1,0 +1,51 @@
+@import "vars";
+
+
+/* Default styles */
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Blocks */
+@import "Blocks/page";
+@import "Blocks/header";
+@import "Blocks/container";
+@import "Blocks/nav";
+@import "Blocks/intro";
+@import "Blocks/btn";
+@import "Blocks/form";
+@import "Blocks/input";
+@import "Blocks/socials";
+@import "Blocks/tabs";
+@import "Blocks/features2";
+@import "Blocks/features3";
+@import "Blocks/progress";
+@import "Blocks/section";
+@import "Blocks/pricing";
+@import "Blocks/reviews";
+@import "Blocks/author";
+@import "Blocks/custom";
+@import "Blocks/contact";
+@import "Blocks/footer";
+@import "Blocks/burger";
+
+
+
+@import "Blocks/helpers";

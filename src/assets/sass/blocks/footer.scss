@@ -1,0 +1,41 @@
+.footer {
+    background-color: #000000;
+}
+.footer__inner {
+    padding: 20px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.footer__socials {
+    width: 325px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    @media (max-width: 500px) {
+        width: 300px;
+    }
+    
+}
+
+.footer__link {
+    text-decoration: none;
+}
+
+.footer__icon {
+    display: block;
+    fill: #ccc;
+
+    &:hover {
+       fill: $orange;
+    }
+}
+.footer__copyright {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #ccc;
+}

@@ -1,0 +1,55 @@
+.author__photo {
+    margin-top: 40px;
+    margin-bottom: 100px;
+
+    @media (max-width:770px) {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+}
+.author {
+    margin-top: 15px;
+    position: relative;
+
+    @media (max-width:770px) {
+        top: 20px;
+        left: 30%;
+    }
+
+    @media (max-width:500px) {
+        left: 20%;
+    }
+
+    @media (max-width:375px) {
+        left: 10%;
+    }
+    
+}
+
+.author__name {
+    position: absolute;
+    top: 60px;
+    left: 85px;
+
+    font-size: 1.33rem;
+    font-weight: 700;
+    color: #333;
+
+    @media (max-width:970px) {
+        font-size: 1rem;
+    }
+
+    @media (max-width:770px) {
+        
+    }
+}
+
+.author__position {
+    position: absolute;
+    top: 90px;
+    left: 85px;
+
+    font-size: 0.93rem;
+    font-weight: 400;
+    color: #86878b;
+}

@@ -1,0 +1,153 @@
+
+.section__header {
+    padding-top: 105px;
+
+    width: 100%;
+    text-align: center;
+
+    @media (max-width: 970px) {
+        padding-top: 55px;
+    }
+}
+
+.section__title {
+    position: relative;
+
+    font-size: 36px;
+    font-weight: 400;
+    font-family: $ff-Raleway;
+    color: #212121;
+
+    text-transform: uppercase;
+
+    
+
+    &:after {
+        content: "";
+        display: block;
+        
+        width: 65px;
+        height: 2px;
+
+        background-color: #ff8b38;
+
+        position: absolute;
+        top: 80px;
+        left: 47%;
+        z-index: 1;
+
+        @media (max-width: 970px) {
+            left: 46%;
+        }
+
+        @media (max-width: 575px) {
+            left: 45%;
+        }
+
+        @media (max-width: 500px) {
+            left: 44%;
+        }
+
+        @media (max-width: 320px) {
+            left: 43%;
+        }
+   
+    }
+
+    @media (max-width: 1024px) {
+        font-size: 22.5px;
+
+        &:after {
+            top: 65px;
+        }
+    }
+    @media (max-width: 970px) {
+        font-size: 20px;
+
+        &:after {
+            top: 60px;
+        }
+    }
+}
+
+.section__title--reviews {
+    @media (max-width: 356px) {
+        &:after {
+            top: 90px;
+        }
+
+    }
+}
+.section__title--white {
+    position: relative;
+
+    font-size: 36px;
+    font-weight: 400;
+    font-family: $ff-Raleway;
+    color: #fff;
+
+    text-transform: uppercase;
+
+    &:after {
+        content: "";
+        display: block;
+        
+        width: 65px;
+        height: 2px;
+
+        background-color: #fff;
+        position: absolute;
+        top: 80px;
+        left: 47%;
+        z-index: 1; 
+    }
+
+    @media (max-width: 1024px) {
+        font-size: 22.5px;
+
+        &:after {
+            top: 60px;
+        }
+    }
+
+    @media (max-width: 970px) {
+
+        &:after {
+            left: 46%;
+        }
+    }
+
+    @media (max-width: 770px) {
+
+        &:after {
+            left: 45%;
+        }
+    }
+
+    @media (max-width: 575px) {
+
+        &:after {
+            left: 44%;
+        }
+    }
+
+    @media (max-width: 500px) {
+
+        &:after {
+            left: 43%;
+        }
+    }
+}
+
+.section__subtitle {
+    margin-top: 60px;
+    margin-bottom: 0;
+    
+    font-size: 0.93rem;
+    font-weight: 400;
+    color: #86878b;
+
+    &--white {
+        color: #fff;
+    }
+}
